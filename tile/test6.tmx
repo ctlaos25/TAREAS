@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Test" tilewidth="32" tileheight="32">
+  <image source="crypt.png" width="512" height="512"/>
+  <tile id="2">
+   <properties>
+    <property name="collision" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="257" name="object- layer_1" tilewidth="32" tileheight="32">
+  <image source="../../../Escritorio/Tiles/object- layer_1.png" width="477" height="219"/>
+ </tileset>
+ <tileset firstgid="341" name="ground_tiles" tilewidth="32" tileheight="32">
+  <image source="../../../Escritorio/Tiles/ground_tiles.png" width="672" height="701"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="10" height="10">
+  <data>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+   <tile gid="224"/>
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="10" height="10">
+  <data>
+   <tile gid="14"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="15"/>
+   <tile gid="16"/>
+   <tile gid="30"/>
+   <tile gid="79"/>
+   <tile gid="202"/>
+   <tile gid="79"/>
+   <tile gid="202"/>
+   <tile gid="79"/>
+   <tile gid="202"/>
+   <tile gid="79"/>
+   <tile gid="202"/>
+   <tile gid="32"/>
+   <tile gid="30"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="211"/>
+   <tile gid="211"/>
+   <tile gid="32"/>
+   <tile gid="30"/>
+   <tile gid="0"/>
+   <tile gid="240"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="240"/>
+   <tile gid="32"/>
+   <tile gid="30"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="32"/>
+   <tile gid="30"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="240"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="32"/>
+   <tile gid="30"/>
+   <tile gid="0"/>
+   <tile gid="219"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="32"/>
+   <tile gid="62"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="63"/>
+   <tile gid="64"/>
+   <tile gid="78"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="79"/>
+   <tile gid="80"/>
+   <tile gid="94"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="95"/>
+   <tile gid="96"/>
+  </data>
+ </layer>
+ <layer name="Collision" width="10" height="10">
+  <data>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="13"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+   <tile gid="0"/>
+  </data>
+ </layer>
+ <objectgroup name="warps" width="10" height="10">
+  <object name="warp" x="60" y="187" width="39" height="43">
+   <properties>
+    <property name="mapa" value="mapa6"/>
+    <property name="x" value="32"/>
+    <property name="y" value="32"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
